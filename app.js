@@ -1,6 +1,7 @@
 console.log("Write your code below!")
 
 function sayHello(name){
+  console.log(`Hello, ${name}`);
 }
 
 function letterCount(name){
@@ -21,8 +22,9 @@ function kebabToTitleCase(filenames){
 }
 
 //Write your test cases below this comment
-
-
+sayHello("Ann");
+sayHello("Reuben");
+sayHello("Maya");
 //do not editing anything below this comment.
 module.exports = {
   sayHello,
